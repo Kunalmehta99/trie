@@ -15,13 +15,13 @@ onload = function () {
     add.onclick = function () {
         let details = contact_info.value;
         details = details.split(',');
-        if(details.length!==2){
-            alert("Incorrectly formatted input");
-            return;
-        }
+        //if(details.length!==2){
+           // alert("Incorrectly formatted input");
+           // return;
+       // }
         details[0] = details[0].trim();
         details[1] = details[1].trim();
-        if(details[1].length!==6){
+        if(details[1].length!==10){
             alert("Incorrectly formatted input");
             return;
         }
